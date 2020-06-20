@@ -1,0 +1,12 @@
+.navbar-main{
+    background-color: #ef534f;
+    border-color: #e24e4b;
+    border-radius: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: #FFF;
+}
