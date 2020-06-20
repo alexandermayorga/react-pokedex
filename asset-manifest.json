@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-pokedex/static/css/main.22dfc985.chunk.css",
+    "main.js": "/react-pokedex/static/js/main.e8f8379e.chunk.js",
+    "main.js.map": "/react-pokedex/static/js/main.e8f8379e.chunk.js.map",
+    "runtime-main.js": "/react-pokedex/static/js/runtime-main.f27a760f.js",
+    "runtime-main.js.map": "/react-pokedex/static/js/runtime-main.f27a760f.js.map",
+    "static/css/2.aebe04ed.chunk.css": "/react-pokedex/static/css/2.aebe04ed.chunk.css",
+    "static/js/2.10e2633c.chunk.js": "/react-pokedex/static/js/2.10e2633c.chunk.js",
+    "static/js/2.10e2633c.chunk.js.map": "/react-pokedex/static/js/2.10e2633c.chunk.js.map",
+    "index.html": "/react-pokedex/index.html",
+    "precache-manifest.75480b0e8039d502fc8e3a069ee7b4c8.js": "/react-pokedex/precache-manifest.75480b0e8039d502fc8e3a069ee7b4c8.js",
+    "service-worker.js": "/react-pokedex/service-worker.js",
+    "static/css/2.aebe04ed.chunk.css.map": "/react-pokedex/static/css/2.aebe04ed.chunk.css.map",
+    "static/css/main.22dfc985.chunk.css.map": "/react-pokedex/static/css/main.22dfc985.chunk.css.map",
+    "static/js/2.10e2633c.chunk.js.LICENSE.txt": "/react-pokedex/static/js/2.10e2633c.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.min.css": "/react-pokedex/static/media/glyphicons-halflings-regular.fa277232.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f27a760f.js",
+    "static/css/2.aebe04ed.chunk.css",
+    "static/js/2.10e2633c.chunk.js",
+    "static/css/main.22dfc985.chunk.css",
+    "static/js/main.e8f8379e.chunk.js"
+  ]
+}
