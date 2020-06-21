@@ -4,12 +4,9 @@ import './index.css';
 import App from './components/App/App';
 import { BrowserRouter } from "react-router-dom";
 
-let basename = "/react-pokedex";
-if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') { basename = "" }
-
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename="/react-pokedex">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

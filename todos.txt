@@ -1,0 +1,24 @@
+[ Pokemons List - Component ]
+Search by 
+    Name -> needs input box
+    Type -> gather all the types and make them buttons (sidebar)
+
+
+[ Pokemon - Component ]
+Add "Previous / Next" to Pokemon component
+add Type color to Pokemon component panel
+    Types
+        Badges of different colors
+    Stats
+        Colored Fill Bars 
+
+
+Add footer with Link to PokeAPI
+
+
+Profile
+Height
+Weight
+Category - Colored?
+
+Abilities - show 2

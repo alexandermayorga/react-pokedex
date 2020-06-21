@@ -2,9 +2,14 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import PokemonsList from "../components/PokemonsList";
 import Pagination from '../components/Pagination';
+import { useHistory, useParams } from "react-router-dom";
 
 export default function Pokemons() {
-    const [currentPageURI, setcurrentPageURI] = useState('https://pokeapi.co/api/v2/pokemon/')
+    let history = useHistory();
+    const { pageId } = useParams();
+    let BASE_URL = `https://pokeapi.co/api/v2/pokemon/?limit=20&offset=${pageId * 20}`;
+
+    const [currentPageURI, setcurrentPageURI] = useState(BASE_URL)
     const [pokemons, setPokemons] = useState([])
     const [previousPageURI, setPreviousPageURI] = useState();
     const [nextPageURI, setNextPageURI] = useState();
@@ -12,9 +17,11 @@ export default function Pokemons() {
 
     function clickPrevious() {
         setcurrentPageURI(previousPageURI)
+        history.push(`/${parseInt(pageId) - 1}`);
     }
     function clickNext() {
         setcurrentPageURI(nextPageURI)
+        history.push(`/${parseInt(pageId) + 1}`);
     }
 
     useEffect(() => {
@@ -40,7 +47,7 @@ export default function Pokemons() {
     return (
         <div className="container">
             <div className="row">
-                <Pagination 
+                <Pagination
                     clickPrevious={previousPageURI ? clickPrevious : null}
                     clickNext={nextPageURI ? clickNext : null}
                 />
