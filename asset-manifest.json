@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/react-pokedex/static/css/main.22dfc985.chunk.css",
-    "main.js": "/react-pokedex/static/js/main.b6de1507.chunk.js",
-    "main.js.map": "/react-pokedex/static/js/main.b6de1507.chunk.js.map",
+    "main.css": "/react-pokedex/static/css/main.5e65a75e.chunk.css",
+    "main.js": "/react-pokedex/static/js/main.ae2e55ba.chunk.js",
+    "main.js.map": "/react-pokedex/static/js/main.ae2e55ba.chunk.js.map",
     "runtime-main.js": "/react-pokedex/static/js/runtime-main.f27a760f.js",
     "runtime-main.js.map": "/react-pokedex/static/js/runtime-main.f27a760f.js.map",
     "static/css/2.aebe04ed.chunk.css": "/react-pokedex/static/css/2.aebe04ed.chunk.css",
-    "static/js/2.885cb9c8.chunk.js": "/react-pokedex/static/js/2.885cb9c8.chunk.js",
-    "static/js/2.885cb9c8.chunk.js.map": "/react-pokedex/static/js/2.885cb9c8.chunk.js.map",
+    "static/js/2.39a67ad1.chunk.js": "/react-pokedex/static/js/2.39a67ad1.chunk.js",
+    "static/js/2.39a67ad1.chunk.js.map": "/react-pokedex/static/js/2.39a67ad1.chunk.js.map",
     "index.html": "/react-pokedex/index.html",
-    "precache-manifest.953da5e5b918fc710a631a7400c1dcda.js": "/react-pokedex/precache-manifest.953da5e5b918fc710a631a7400c1dcda.js",
+    "precache-manifest.1ad2c510a236e1f0bfccd17cafd53b2e.js": "/react-pokedex/precache-manifest.1ad2c510a236e1f0bfccd17cafd53b2e.js",
     "service-worker.js": "/react-pokedex/service-worker.js",
     "static/css/2.aebe04ed.chunk.css.map": "/react-pokedex/static/css/2.aebe04ed.chunk.css.map",
-    "static/css/main.22dfc985.chunk.css.map": "/react-pokedex/static/css/main.22dfc985.chunk.css.map",
-    "static/js/2.885cb9c8.chunk.js.LICENSE.txt": "/react-pokedex/static/js/2.885cb9c8.chunk.js.LICENSE.txt",
+    "static/css/main.5e65a75e.chunk.css.map": "/react-pokedex/static/css/main.5e65a75e.chunk.css.map",
+    "static/js/2.39a67ad1.chunk.js.LICENSE.txt": "/react-pokedex/static/js/2.39a67ad1.chunk.js.LICENSE.txt",
     "static/media/bootstrap.min.css": "/react-pokedex/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.f27a760f.js",
     "static/css/2.aebe04ed.chunk.css",
-    "static/js/2.885cb9c8.chunk.js",
-    "static/css/main.22dfc985.chunk.css",
-    "static/js/main.b6de1507.chunk.js"
+    "static/js/2.39a67ad1.chunk.js",
+    "static/css/main.5e65a75e.chunk.css",
+    "static/js/main.ae2e55ba.chunk.js"
   ]
 }
