@@ -1,5 +1,6 @@
 import React from 'react'
 import './main.css'
+import { capitalize } from '../../Helpers'
 import { Link } from 'react-router-dom'
 
 export default function PokemonsCard({pokemon}) {
@@ -13,7 +14,7 @@ export default function PokemonsCard({pokemon}) {
                 <div className="thumbnail thumbnail--light-grey" style={{ cursor: "pointer" }}>
                     <img src={imageSrc} alt={pokemon.name} />
                     <div className="caption">
-                        <h3 className="text-center" style={{ marginTop: 0 }}>{pokemon.name}</h3>
+                        <h3 className="text-center" style={{ marginTop: 0 }}>{capitalize(pokemon.name)}</h3>
                     </div>
                 </div>
             </Link>

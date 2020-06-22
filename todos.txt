@@ -1,16 +1,12 @@
 [ Pokemons List - Component ]
+Navigation
+    Make Nav [Previous, 1, 2, 3, ..., 10, Next]
 Search by 
     Name -> needs input box
-    Type -> gather all the types and make them buttons (sidebar)
+    Type -> gather all the types and make them buttons 
 
 
 [ Pokemon - Component ]
-Add "Previous / Next" to Pokemon component
-add Type color to Pokemon component panel
-    Types
-        Badges of different colors
-    Stats
-        Colored Fill Bars 
 
 
 Add footer with Link to PokeAPI
